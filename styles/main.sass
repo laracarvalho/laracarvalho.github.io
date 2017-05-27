@@ -93,7 +93,7 @@ h3, .alt-h3
   color: white
 
 strong
-  color: $style
+  font-style: bold
 
 p
   text-align: justify
@@ -103,6 +103,9 @@ p
   margin: 30px
   font-weight: 500
   color: white
+
+.skill-list
+  text-align: center
 
 
 #about-section
@@ -200,9 +203,19 @@ ul
   text-align: center
   padding-bottom: 20px
 
-  .icon-img
-    display: inline-block
-    padding: 40px 30px 0px 30px
+.icon-img
+  display: inline-block
+  padding: 40px 30px 0px 30px
+
+.icon-img:hover
+  -webkit-transition: all 200ms ease-in
+  -webkit-transform: scale(1.2)
+  -ms-transition: all 200ms ease-in
+  -ms-transform: scale(1.2) 
+  -moz-transition: all 200ms ease-in
+  -moz-transform: scale(1.2)
+   transition: all 200ms ease-in
+   transform: scale(1.2)
 
 .email
   display: block
@@ -244,25 +257,28 @@ form
     font-size: 30px
 
   p, li, .skill
-    font-size: 90%
+    font-size: 95%
 
   h1
-    padding: 10px
+    padding: 5px
     font-size: 50px
 
   .title
     font-size: 20px
+
+  header
+    height: 240px
 
 @media screen and (max-width: 480px)
   .email
     font-size: 30px
 
   p, li, .skill
-    font-size: 90%
+    font-size: 95%
 
   h1
     font-size: 60px
-    padding: 10px
+    padding: 5px
 
   .title
     font-size: 20px
