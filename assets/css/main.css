@@ -1817,10 +1817,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #DEDEDE;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
-		color: inherit;
+		color: #333;
 		display: block;
 		outline: 0;
 		padding: 0 0.75em;
