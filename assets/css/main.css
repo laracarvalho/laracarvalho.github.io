@@ -1820,7 +1820,7 @@ input, select, textarea {
 		background: #DEDEDE;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
-		color: #1C1C1C;
+		color: #333;
 		display: block;
 		outline: 0;
 		padding: 0 0.75em;
