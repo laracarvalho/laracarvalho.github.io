@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #333;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -2539,7 +2539,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-attachment: scroll,								scroll;
 		background-image: url("/imgs/fabian-grohs-unsplash.jpg");
-		background-position: top left,							top left;
+		background-position: center;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.2);
