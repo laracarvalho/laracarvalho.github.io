@@ -2072,11 +2072,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 80%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.avatar {
@@ -2987,7 +2987,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
-				background-position: top left, center center;
+				background-position: center;
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
@@ -3011,7 +3011,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-image: url("/imgs/fabian-grohs-unsplash.jpg");
-				background-position: top left,						bottom center;
+				background-position: center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
 				bottom: auto;
