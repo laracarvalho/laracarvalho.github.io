@@ -1,0 +1,19 @@
+# Site settings
+
+title: "Lara Carvalho | Programação, Design e Marketing"
+page_title: Lara Carvalho
+description: Programação para Designers, JavaScript, Open Source, Privacidade, Customização, Produtividade.
+author: Lara Carvalho
+timezone: America/Sao_Paulo
+baseurl: ""
+language: "pt-br"
+paginate: 5 
+paginate_path: "/blog/page:num"
+permalink: /posts/:title/
+display-author-front-page: false
+display-author-post-page: false
+
+
+# Plugins
+plugins:
+  - jekyll-paginate

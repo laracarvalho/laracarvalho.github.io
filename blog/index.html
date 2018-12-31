@@ -1,0 +1,47 @@
+---
+title: Blog
+---
+
+{% include head.html %}
+
+<body>
+	<div class="container">
+
+		{% include sidebar.html %}
+
+		<div class="blog">
+			<h1>Blog</h1>
+			<div class="tags">
+				<ul>
+					<li><a href="categories.html">Tutoriais</a></li>
+					<li><a href="">Artigos</a></li>
+					<li><a href="">Material</a></li>
+				</ul>
+
+				{% if page.categories %}
+				  <span class="categories">
+				    &raquo; {% for category in page.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+				  </span>
+				{% endif %}
+			</div>
+
+			<div class="blog-content">
+
+					{% for post in paginator.posts %}
+
+				    <article class="blog-posts">
+				    	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				    	<h4>Publicado em: {{ post.date | date: "%d/%m/%Y" }}</h4>
+				      {{ post.excerpt }}
+				      <a href="{{ post.url }}">Ler o resto.</a>
+					</article>
+
+				  {% endfor %}
+
+				  {% include paginator.html %}
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
