@@ -18,6 +18,7 @@ h3 {
 .main {
 	grid-area: main;
 	background: url("../cool-background.png") no-repeat center;
+	background-size: cover;
 	background-color: #e5e5e5;
 }
 
@@ -286,7 +287,7 @@ footer ul li a:hover {
 	}
 
 	article {
-		width: 85%;
+		width: 90%;
 		height: auto;
 		padding: 0.6em;
 		border-bottom: 2px solid #87519a;
@@ -294,7 +295,7 @@ footer ul li a:hover {
 		border-radius: 6px;
 		margin: 1.2em auto;
 		overflow: hidden;
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	article h3 {
