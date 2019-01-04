@@ -1,0 +1,33 @@
+---
+title: Post
+---
+
+{% include head.html %}
+
+<body>
+	<div class="container">
+
+		{% include sidebar.html %}
+
+		<div class="blog">
+			<h1>Blog</h1>
+			<div class="tags">
+
+				{% if page.categories %}
+				  <ul class="categories">
+				  	<li><a href="/blog/" class="cat-todos">Todos</a></li>
+				    {% for category in page.categories %}<li><a href="/categories/{{ category }}">{{ category }}</a></li>{% if forloop.last == false %}, {% endif %}{% endfor %}
+				  </ul>
+				{% endif %}
+			</div>
+
+				<article class="blog-posts">
+			    	<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+			    	<h4>Publicado em: {{ page.date | date: "%d/%m/%Y" }}</h4>
+			    	<br />
+			      {{ content }}
+				</article>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,7 +1,17 @@
-# laracarvalho.net
-Meu website.
+# Dwarf
+Minimalist starter kit for front-end projects using Sass, BrowserSync and GulpJS.
 
-## Usando
+## Setting Up
 
-- Usando o Static Site Generator Jekyll.
-- Hospedado em Netlify.
+- First, install `Node.js` and `NPM`.
+- Install `Gulp` if you need.
+- Clone this repository and use your terminal to navigate to the local repo.
+- Type `Gulp` in the terminal.
+- Edit the files and start your project.
+
+## Using
+
+- Image Minification with `gulp-imagemin`.
+- Compiling Sass to CSS with `gulp-sass`.
+- Minify JavaScript with `gulp-minify`.
+- Minify CSS with `gulp-nanocss`.

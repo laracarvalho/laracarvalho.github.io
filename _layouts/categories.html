@@ -15,9 +15,9 @@ title: Categorias
 			    {% capture category_slug %}{{ category | first }}{% endcapture %}
 			    {% for c_slug in category_slug %}
 			      {% if c_slug == page.categories %}
-			        <button class="btn btn-sm btn-default active">{{ c_slug }}</button>
+			        <span class="btn-cat-active">{{ c_slug }}</span>
 			      {% else %}
-			        <a href="/category/{{ c_slug }}" class="btn btn-sm btn-default">{{ c_slug }}</a>
+			        <a href="/categories/{{ c_slug }}" class="btn-cat">{{ c_slug }}</a>
 			      {% endif %}
 			    {% endfor %}
 			{% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: categories
-categories: tutoriais
+categories: Tutoriais
 title: Tutoriais
 permalink: /categories/tutoriais
 ---

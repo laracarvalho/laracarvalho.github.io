@@ -1,6 +1,6 @@
 ---
 layout: categories
-categories: artigos
+categories: Artigos
 title: Artigos
 permalink: /categories/artigos
 ---
