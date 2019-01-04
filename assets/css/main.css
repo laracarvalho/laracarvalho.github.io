@@ -424,9 +424,6 @@ footer ul li a:hover {
 
 
 @media (max-width: 480px) {
-	article {
-		font-size: 0.7em;
-	}
 
 	nav {
 		margin: 0 auto;
