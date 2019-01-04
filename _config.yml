@@ -14,6 +14,12 @@ display-author-front-page: false
 display-author-post-page: false
 
 
+# Code Settings
+highlighter: rouge
+
+
+
 # Plugins
 plugins:
   - jekyll-paginate
+  - rouge

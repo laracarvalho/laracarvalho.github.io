@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
-
+@import url('highlight.css');
 
 /* GENERAL */
 
@@ -315,27 +315,6 @@ footer ul li a:hover {
 		font-size: 1em;
 	}
 
-	article h3 {
-		margin: 0.3em 0;
-		font-size: 1.5em;
-	}
-
-	article h3 a {
-		text-decoration: none;
-		color: #87519a;
-	}
-
-	article h4 {
-		margin-top: 0;
-		margin-bottom: 0.5em;
-		font-size: 0.7em;
-		font-weight: normal;
-	}
-
-	article p {
-		overflow-wrap: break-word;
-	}
-
 	.pagination {
 		display: flex;
 		justify-content: center;
@@ -360,6 +339,29 @@ footer ul li a:hover {
 	.btn-cat-active {
 		opacity: 0.5;
 	}
+
+	/* POSTS STYLING */
+
+		article h3 {
+		margin: 0.3em 0;
+		font-size: 1.5em;
+	}
+
+		article h3 a {
+			text-decoration: none;
+			color: #87519a;
+		}
+
+		article h4 {
+			margin-top: 0;
+			margin-bottom: 0.5em;
+			font-size: 0.7em;
+			font-weight: normal;
+		}
+
+		article p {
+			overflow-wrap: break-word;
+		}
 
 
 /* WIDE SCREEN */	

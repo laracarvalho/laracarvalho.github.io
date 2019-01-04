@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
-
+@import url('highlight.css');
 
 /* GENERAL */
 
@@ -109,6 +109,24 @@ nav li a:hover {
 .main-content p {
 	line-height: 1.8em;
 	color: #333;
+}
+
+.btn-folio {
+	background-color: rgb(130, 125, 253);
+	border-radius: 25px;
+	border-width: 0;
+	box-shadow: none;
+	padding: 1em 1.5em;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.8em;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.btn-folio:hover {
+	background-color: rgb(218, 103, 230);
+	box-shadow: 0 5px 15px rgba(188,197,216, 0.6);
 }
 
 
@@ -286,7 +304,7 @@ footer ul li a:hover {
 	}
 
 	article {
-		width: 85%;
+		width: 80%;
 		height: auto;
 		padding: 0.6em;
 		border-bottom: 2px solid #87519a;
@@ -294,28 +312,7 @@ footer ul li a:hover {
 		border-radius: 6px;
 		margin: 1.2em auto;
 		overflow: hidden;
-		font-size: 0.8em;
-	}
-
-	article h3 {
-		margin: 0.3em 0;
-		font-size: 1.5em;
-	}
-
-	article h3 a {
-		text-decoration: none;
-		color: #87519a;
-	}
-
-	article h4 {
-		margin-top: 0;
-		margin-bottom: 0.5em;
-		font-size: 0.7em;
-		font-weight: normal;
-	}
-
-	article p {
-		overflow-wrap: break-word;
+		font-size: 1em;
 	}
 
 	.pagination {
@@ -342,6 +339,29 @@ footer ul li a:hover {
 	.btn-cat-active {
 		opacity: 0.5;
 	}
+
+	/* POSTS STYLING */
+
+		article h3 {
+		margin: 0.3em 0;
+		font-size: 1.5em;
+	}
+
+		article h3 a {
+			text-decoration: none;
+			color: #87519a;
+		}
+
+		article h4 {
+			margin-top: 0;
+			margin-bottom: 0.5em;
+			font-size: 0.7em;
+			font-weight: normal;
+		}
+
+		article p {
+			overflow-wrap: break-word;
+		}
 
 
 /* WIDE SCREEN */	
