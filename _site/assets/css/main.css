@@ -186,7 +186,7 @@ footer ul li a:hover {
 /* PORTFOLIO */
 	
 	.box {
-	  min-height: 300px;
+	  min-height: 400px;
 	  display: flex;
 	  display: -webkit-flex;
 	  flex-wrap: wrap;
@@ -233,26 +233,39 @@ footer ul li a:hover {
 	.box .one {
 		background: url(../work-one.png) no-repeat center center;
 		background-size: cover;
-		min-width: 200px;
+		min-width: 300px;
 	}
 
 	.box .two {
 		background: url(../work-two.png) no-repeat center center;
 		background-size: cover;
-		min-width: 200px;
+		min-width: 300px;
 	}
 
 	.box .three {
 		background: url(../work-three.jpg) no-repeat center center;
 		background-size: cover;
-		min-width: 200px;
+		min-width: 300px;
 	}
 
 	.box .four {
 		background: url(../work-four.png) no-repeat center center;
 		background-size: cover;
-		min-width: 200px;
+		min-width: 300px;
 	}
+
+	.box .five {
+		background: url(../work-five.png) no-repeat center center;
+		background-size: cover;
+		min-width: 300px;
+	}
+
+	.box .six {
+		background: url(../work-six.png) no-repeat center center;
+		background-size: cover;
+		min-width: 300px;
+	}
+
 
 	.web .one {
 		background: url(../web-one.png) no-repeat center center;
@@ -261,6 +274,16 @@ footer ul li a:hover {
 
 	.web .two {
 		background: url(../web-two.png) no-repeat center center;
+		background-size: cover;
+	}
+
+	.web .three {
+		background: url(../web-three.png) no-repeat center center;
+		background-size: cover;
+	}
+
+	.web .four {
+		background: url(../web-four.png) no-repeat center center;
 		background-size: cover;
 	}
 
