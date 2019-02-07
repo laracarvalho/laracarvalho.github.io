@@ -17,9 +17,13 @@ display-author-post-page: false
 # Code Settings
 highlighter: rouge
 
+# Compress Images
+compress_images:
+  images_path: "assets/*.{gif,png,jpg,jpeg,svg}"
 
 
 # Plugins
 plugins:
   - jekyll-paginate
   - rouge
+  - jekyll-compress-images
