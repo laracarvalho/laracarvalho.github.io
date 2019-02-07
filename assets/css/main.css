@@ -266,6 +266,27 @@ footer ul li a:hover {
 		min-width: 300px;
 	}
 
+	.box .seven {
+		background: url(../work-seven.png) no-repeat center center;
+		background-size: cover;
+		min-width: 300px;
+	}
+
+	.box .eight {
+		background: url(../work-eight.png) no-repeat center center;
+		background-size: cover;
+		min-width: 300px;
+	}
+
+	.box .nine {
+		background: url(../work-nine.png) no-repeat center center;
+		background-size: cover;
+		min-width: 300px;
+	}
+
+
+
+
 
 	.web .one {
 		background: url(../web-one.png) no-repeat center center;
