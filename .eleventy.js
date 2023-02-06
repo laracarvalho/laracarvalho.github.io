@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/css");
 
-  
+
   // eleventyConfig.addFilter("cssmin", async function (code) {
   //   const data = await fs.readFile(
   //     path.resolve(__dirname, "/css/index.css")
@@ -141,7 +141,7 @@ module.exports = function(eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: "/",
+    pathPrefix: "/github-pages",
     // -----------------------------------------------------------------
 
     // These are all optional (defaults are shown):

@@ -25,10 +25,10 @@
       <section class="header">
         <a class="home" href="{{ '/' | url }}"><span class="site-name">{{ metadata.title }}</span>.</a>
         <nav>
-          <a href="/about">Sobre</a>
-          <a href="/posts">Posts</a>
-          <a href="/search">Pesquisar</a>
-          <a href="/feed/feed.xml">RSS</a>
+          <a href="{{ '/about' | url }}">Sobre</a>
+          <a href="{{ '/posts' | url }}">Posts</a>
+          <a href="{{ '/search' | url }}">Pesquisar</a>
+          <a href="{{ '/feed/feed.xml' | url }}">RSS</a>
         </nav>
       </section>
     </header>
@@ -40,7 +40,7 @@
     <footer>
       <section class="footer">
         <section>
-          <p><a href="/about">Sobre</a></p>
+          <p><a href="{{ '/about' | url }}">Sobre</a></p>
           <p><a href="https://www.youtube.com/channel/UC1QrvNdWT54j6Sz7Bx4wDWg">Canal no Youtube</a></p>
         </section>
 

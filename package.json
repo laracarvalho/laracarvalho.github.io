@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website based on Eleventy Base Blog template.",
   "scripts": {
-    "build": "eleventy",
+    "build": "NODE_ENV=production eleventy --pathprefix 'github-pages' ",
     "watch": "eleventy --watch",
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy"

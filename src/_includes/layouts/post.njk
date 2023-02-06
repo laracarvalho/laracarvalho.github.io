@@ -25,8 +25,8 @@ templateClass: tmpl-post
 <p>Se você tiver dúvidas ou gostaria de discutir esse artigo, pode me chamar via <a href="mailto:laraftoller@gmail.com">email</a>.</p>
 <hr>
 <ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  {%- if nextPost %}<li>Próximo: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li>Anterior: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
 {%- endif %}
