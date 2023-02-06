@@ -1,7 +1,7 @@
 {
   "title": "Lara Carvalho",
   "url": "https://laracarvalho.net/",
-  "language": "en",
+  "language": "pt-br",
   "description": "I'm a developer experimenting with tech, business, writing, design and everything I get interested about.",
   "feed": {
     "subtitle": "I'm a developer experimenting with tech, business, writing, design and everything I get interested about.",
@@ -14,8 +14,8 @@
     "url": "https://laracarvalho.net//feed/feed.json"
   },
   "author": {
-    "name": "Daepher",
-    "email": "daepher@gmail.com",
-    "url": "https://laracarvalho.net//about/"
+    "name": "Lara Carvalho",
+    "email": "laraftoller@gmail.com",
+    "url": "https://laracarvalho.net/"
   }
 }
