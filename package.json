@@ -1,0 +1,33 @@
+{
+  "name": "laracarvalho.github.io",
+  "version": "1.0.0",
+  "description": "Personal website based on Eleventy Base Blog template.",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/laracarvalho/laracarvalho.github.io.git"
+  },
+  "author": {
+    "name": "Lara Carvalho",
+    "email": "laraftoller@gmail.com",
+    "url": "https://laracarvalho.net/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "2.0.0-beta.2",
+    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^1.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "clean-css": "^5.3.2",
+    "lodash": "^4.17.21",
+    "luxon": "^3.2.1",
+    "markdown-it-anchor": "^8.6.6"
+  }
+}
