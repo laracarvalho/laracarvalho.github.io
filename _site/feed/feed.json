@@ -1,0 +1,14 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Lara Carvalho",
+  "language": "pt-br",
+  "home_page_url": "https://laracarvalho.net/",
+  "feed_url": "https://laracarvalho.net//feed/feed.json",
+  "description": "I&#39;m a developer experimenting with tech, business, writing, design and everything I get interested about.",
+  "author": {
+    "name": "Lara Carvalho",
+    "url": "https://laracarvalho.net/"
+  },
+  "items": [
+  ]
+}
