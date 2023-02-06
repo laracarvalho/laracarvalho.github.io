@@ -1,0 +1,17 @@
+---
+layout: layouts/home.njk
+eleventyExcludeFromCollections: true
+---
+
+<h1>Pesquise pelo site</h1>
+
+<p>Este site tem como objetivo não usar Javascript client-side, o formulário de pesquisa o levará para uma página do DuckDuckGo limitada ao site.</p>
+
+<form action="https://duckduckgo.com/" method="get" class="form-search">
+	<label for="input-search">Pesquisa:</label>
+	<input type="text" name="q" class="input-search">
+	<input type="hidden" name="sites" value="laracarvalho.net">
+	<button class="submit-search">Pesquisar</button>
+</form>
+
+

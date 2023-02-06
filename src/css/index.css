@@ -1,0 +1,330 @@
+:root {
+  --dark-bg: #222;
+  --light-font: #fafafa;
+  --lighter-font: #f0f0f0;
+  --highlight: #A6C4E8;
+  --link: #D2A6DE;
+  --dark-hl: #8ba1b8;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+p {
+  margin: 1.4rem auto;
+}
+
+body {
+  margin: 0;
+  background: var(--dark-bg);
+  color: var(--light-font);
+  font: normal 18px/1.5 "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+  font-weight: 600;
+}
+a:hover,
+a:visited {
+  color: var(--highlight);
+  font-weight: 600;
+}
+
+img {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* Nav */
+
+.site-name {
+  color: var(--light-font);
+  font-size: 24px;
+}
+
+
+header {
+  background-color: #202020;
+  padding: 20px;
+}
+
+.header {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header > * {
+  flex: 1;
+}
+
+nav a:not(:last-child) {
+  margin-right: 5px;
+}
+
+/* Main */
+
+main {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 0 10px;
+}
+
+hr {
+  color: var(--link);
+  opacity: 0.8;
+  max-width: 650px;
+}
+
+/* Code */
+
+pre,
+code {
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.5;
+}
+
+pre {
+  font-size: 18px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1.2rem;
+  margin: .5em;
+  -webkit-overflow-scrolling: touch;
+  background: #292929;
+  border: none;
+  border-radius: 3px;
+  overflow-x: scroll;
+  scrollbar-color: #201c29;
+  white-space: pre;
+}
+code {
+  word-break: break-all;
+}
+.highlight-line {
+  display: block;
+  padding: 0.125em 1em;
+  text-decoration: none; /* override del, ins, mark defaults */
+  color: inherit; /* override del, ins, mark defaults */
+}
+
+/* allow highlighting empty lines */
+.highlight-line:empty:before {
+  content: " ";
+}
+/* avoid double line breaks when using display: block; */
+.highlight-line + br {
+  display: none;
+}
+
+.highlight-line-isdir {
+  color: #b0b0b0;
+  background-color: #222;
+}
+.highlight-line-active {
+  background-color: #444;
+  background-color: hsla(0, 0%, 27%, .8);
+}
+.highlight-line-add {
+  /* background-color: #45844b; */
+  border-top: 1px solid #45844b;
+  border-bottom: 1px solid #45844b;
+}
+.highlight-line-remove {
+  /* background-color: #813F36; */
+  border-top: 1px solid #813F36;
+  border-bottom: 1px solid #813F36;
+}
+
+
+time {
+  font-size: 16px;
+}
+
+.post-content {
+  margin-top: 60px;
+}
+
+/* Nav */
+.nav {
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+  text-decoration: none;
+}
+.nav-item-active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+
+.postlist-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  counter-increment: start-from 1;
+  line-height: 1.8;
+  margin: 8px auto;
+}
+
+.postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from) ". ";
+  line-height: 100%;
+  text-align: right;
+}
+
+.postlist-date {
+  word-spacing: -0.5px;
+  margin-left: auto;
+}
+
+.postlist-link {
+  padding-left: .25em;
+  padding-right: .25em;
+  text-underline-position: from-font;
+  text-underline-offset: 0;
+  text-decoration-thickness: 1px;
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 6px;
+  line-height: 1.8;
+}
+
+a[href].post-tag,
+a[href].post-tag:visited {
+  font-weight: normal;
+  color: inherit;
+}
+a[href].post-tag:hover,
+a[href].post-tag:focus {
+  font-weight: normal;
+  color: var(--link);
+}
+
+.postlist-item > .post-tag {
+  align-self: center;
+}
+
+/* Direct Links / Markdown Headers */
+.direct-link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: .1em;
+}
+
+a[href].direct-link,
+a[href].direct-link:visited {
+  color: transparent;
+}
+
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  color: #aaa;
+}
+
+/* Search */
+
+.form-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-search {
+  background: #333;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: 6px;
+  padding: 6px 4px;
+  margin: 16px 0;
+  color: #fafafa;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.submit-search {
+  background: var(--dark-hl);
+  color: var(--dark-bg);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 6px;
+  font-weight: bold;
+  text-transform: uppercase;  
+}
+
+.submit-search:hover,
+.submit-search:active {
+  background: var(--highlight);
+  cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+  background-color: #202020;
+  padding: 20px;
+}
+
+.footer {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer section {
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+
+  .footer, .header {
+    flex-direction: column;
+  }
+}
