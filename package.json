@@ -17,6 +17,10 @@
     "email": "laraftoller@gmail.com",
     "url": "https://laracarvalho.net/"
   },
+  "engines": {
+    "node": ">=12.x.x <=18.x.x",
+    "npm": ">=6.0.0"
+  },
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "2.0.0-beta.2",
