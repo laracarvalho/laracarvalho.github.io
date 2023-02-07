@@ -2,9 +2,9 @@
   "title": "Lara Carvalho",
   "url": "https://laracarvalho.net/",
   "language": "pt-br",
-  "description": "I'm a developer experimenting with tech, business, writing, design and everything I get interested about.",
+  "description": "Sou uma dev experimentando com vários assuntos de tecnologia, escrita criativa e técnica, design e qualquer coisa que me interesse no momento.",
   "feed": {
-    "subtitle": "I'm a developer experimenting with tech, business, writing, design and everything I get interested about.",
+    "subtitle": "Sou uma dev experimentando com vários assuntos de tecnologia, escrita criativa e técnica, design e qualquer coisa que me interesse no momento.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://laracarvalho.net/"
