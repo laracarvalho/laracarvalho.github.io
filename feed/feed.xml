@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Lara Carvalho</title>
+	<subtitle>Sou uma dev experimentando com vários assuntos de tecnologia, escrita criativa e técnica, design e qualquer coisa que me interesse no momento.</subtitle>
+	
+	<link href="https://laracarvalho.net/github-pages/feed/feed.xml" rel="self"/>
+	<link href="https://laracarvalho.net/"/>
+	<updated>2023-02-07T00:21:49Z</updated>
+	<id>https://laracarvalho.net/</id>
+	<author>
+		<name>Lara Carvalho</name>
+		<email>laraftoller@gmail.com</email>
+	</author>
+</feed>
