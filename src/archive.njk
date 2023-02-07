@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 {% for yearPosts in collections.postsByYear %}
   <h2>{{ yearPosts.year }}</h2>
   <ul>
-    {% for post in (yearPosts | reverse) %}
+    {% for post in yearPosts %}
       <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
         <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
         <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
