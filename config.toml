@@ -1,0 +1,45 @@
+baseURL = 'https://laracarvalho.net/'
+languageCode = 'pt-br'
+
+
+themesDir = "themes"
+theme = "nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "artigos"
+    weight = 0
+    url = "articles"
+  [[menu.header]]
+    name = "sobre"
+    weight = 1
+    url = "about"
+  [[menu.header]]
+    name = "agora"
+    weight = 2
+    url = "now"
+
+[params]
+author = "Lara Carvalho"
+user = "laracarvalho"
+hostname = "laracarvalho.net"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/laracarvalho"
+
+[[params.social]]
+key = 1
+name = "youtube"
+url = "https://www.youtube.com/c/LaraCarvalhoNet"
+
+[[params.social]]
+key = 2
+name = "instagram"
+url = "https://instagram.com/laracarvalhonet"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:laraftoller@gmail.com"

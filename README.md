@@ -1,2 +1,3 @@
-# laracarvalho@github.io
+# laracarvalho.io
+
 Personal website and blog.
