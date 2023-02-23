@@ -9,7 +9,7 @@ theme = "nightfall"
   [[menu.header]]
     name = "artigos"
     weight = 0
-    url = "articles"
+    url = "post"
   [[menu.header]]
     name = "sobre"
     weight = 1
