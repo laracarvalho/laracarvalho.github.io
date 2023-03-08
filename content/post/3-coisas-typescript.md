@@ -1,7 +1,7 @@
 +++
 author = "Lara Carvalho"
 title = "3 coisas que você deve saber sobre Typescript"
-date = "2019-03-11"
+date = "2023-03-01"
 description = "Existem 3 features que você deve entender para parar de tratar o Typescript como uma barreira e começar a vê-lo como uma ferramenta. Porque ele é poderosíssimo, e vai muito além de tipar tudo como `any` pra fazer o console parar de te perturbar."
 tags = [ "typescript" ]
 categories = [ "typescript" ]
