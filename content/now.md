@@ -9,7 +9,6 @@ Uma página "agora" (now) é uma declaração pública e lembrete a si mesmo do 
 
 **Estudando:**
 - MBA em Arquitetura Full Cycle
-- Formação Kubernetes - Alura
 - MIT 6.001 Structure and Interpretation of Computer Programs
 
 **Leituras atuais:**

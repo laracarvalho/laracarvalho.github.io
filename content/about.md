@@ -10,7 +10,7 @@ author = "Lara Carvalho"
 
 _Lara Carvalho_ é uma entusiasta de programação do Rio de Janeiro, Brasil.
 
-Eu tenho 25 anos, desenvolvo coisas para a web e às vezes para fora dela. Minhas stacks são Node.js (Typescript <3), Python, Golang, AWS.
+Eu tenho 25 anos, desenvolvo coisas para a web e às vezes para fora dela. Minhas stacks são Node.js (Typescript <3), Golang, Python, AWS.
 
 No maior do tempo eu uso o [Obsidian](https://obsidian.md) para manter meu conteúdo e aprendizado sincronizados!
 
